@@ -21,6 +21,7 @@
 </head>
 <body class="impress-not-supported" onload="timedCount()">
 
+<audio autoplay="autoplay" loop="loop"><source src="music/有没有人告诉你-陈楚生.mp3" type="audio/mp3" /></audio>
 <div class="fallback-message">
     <p>您的浏览器不支持HTML5，看不到<ddd> 3D </ddd>特效，肿么办？</p>
     <p><b>不用怕！</b></p><p>请下载最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器(360极速，搜狗的“极速模式”也可以哦~)</p>
@@ -40,7 +41,7 @@
     </div>
 
     <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">小芳芳</span>
+        <span class="try">{{对象}}Seven</span>
         <h1>我爱你<sup>!</sup></h1>
         <!--span class="footnote"><sup>*</sup> no rhyme intended</span-->
     </div>
@@ -58,7 +59,7 @@
     </div>
 
     <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p><span class="px60">你</span> <b class="positioning">常常</b><b class="rotating">哭泣</b><br> <span class="px60">我</span> <b class="scaling">常常亲你</b><br /><xiaozi>你喜欢用脸在我的脸上狂蹭 &nbsp; 我喜欢拉起你的手，轻轻地吻</xiaozi></p>
+        <p><span class="px60">你</span> <b class="positioning">常常</b><b class="rotating">搞笑</b><br> <span class="px60">我</span> <b class="scaling">常常亲你</b><br /><xiaozi>你喜欢用脸在我的脸上狂蹭 &nbsp; 我喜欢拉起你的手，轻轻地吻</xiaozi></p>
     </div>
 
     <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
@@ -90,7 +91,7 @@
 </div>
 
 <script>
-	if ("ontouchstart" in document.documentElement) { 
+	if ("ontouchstart" in document.documentElement) {
 	    document.querySelector(".hint").innerHTML = "<p>按下 "← →" 操控</p>";
 	}
 </script>

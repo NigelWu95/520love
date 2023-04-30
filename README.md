@@ -31,6 +31,9 @@
 * 你也可以 **`Clone or download`** 整个项目到本地运行查看。
 * 小白直接点击这里下载整个项目源码--->[**下载**](https://github.com/local-host-8080/love-confession/archive/master.zip)
 
+## 本地打开
+* 替换内容：在编辑器中按ctrl+f全局搜索"{{替换"，对内容进行替换
+
 ## 归档
 > 点击下方的传送门可以单个预览~
 
