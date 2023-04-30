@@ -1,4 +1,15 @@
+# 说明
+#### 网页部分 Forked From https://github.com/local-host-8080/love-confession 并做了补充和简单修改，增加了 https://github.com/xuyuanzhi051/My520
+和 https://charsych.github.io/biaobaishenqi/gaiban/%E7%AC%AC%E4%B8%83%E4%B8%AA/index.html 的页面，感谢原作者的分享，如有必要请联系我删除。
+
+## 本地打开或部署
+* 替换内容：在编辑器中全局搜索"{{替换"，对内容进行替换
+
+## 以下是原文档
+
 # <p align="center">Love❤️Confession</p>
+
+---
 
 <head>
   <base target="_blank" />
@@ -30,9 +41,6 @@
 * 如果你需要某个页面的源码，可以在 **`src`** 目录下自行下载对应的源码压缩包(.rar)。
 * 你也可以 **`Clone or download`** 整个项目到本地运行查看。
 * 小白直接点击这里下载整个项目源码--->[**下载**](https://github.com/local-host-8080/love-confession/archive/master.zip)
-
-## 本地打开
-* 替换内容：在编辑器中按ctrl+f全局搜索"{{替换"，对内容进行替换
 
 ## 归档
 > 点击下方的传送门可以单个预览~
