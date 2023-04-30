@@ -108,7 +108,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date('{{时间}}');//这个日期是可以修改的
+        BirthDay = new Date('2023-04-13T09:32:00');//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -258,7 +258,7 @@
                             } else {
                                 S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
                             }
-                        }, 1000, value, true);
+                        }, 2000, value, true);
                         break;
 
                     case 'rectangle':
@@ -286,14 +286,14 @@
                                     time = t;
                                     S.Shape.switchShape(S.ShapeBuilder.letter(time));
                                 }
-                            }, 1000);
+                            }, 2000);
                         }
                         break;
 
                     default:
                         S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'HacPai' : current));
                 }
-            }, 2000, sequence.length);
+            }, 4000, sequence.length);
         }
 
         return {
