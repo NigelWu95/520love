@@ -101,7 +101,7 @@
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
-    We fell in love
+    We fall in love
     <br/>
     <span id="span_dt_dt"></span>
 </p>
@@ -132,13 +132,12 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("{{对象}}Seven|I'm|xxx|Nice|to|Meet|You|#countdown 3|#time");
+            S.UI.simulate("蜡笔Seven|I'm|xxx|Nice|to|Meet|You|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
         }
     };
-
 
     S.Drawing = (function () {
         var canvas,
