@@ -38,7 +38,7 @@ $(window).resize(function() {
 })(jQuery);
 
 // 目标时间：2023-04-13 09:32
-const targetTime = new Date('{{时间}}');
+const targetTime = new Date('2023-04-13T09:32:00');
 
 function timeElapse(date){
 	// var current = Date();

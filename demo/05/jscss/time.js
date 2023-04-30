@@ -1,4 +1,4 @@
-const startDatetime= new Date('{{时间}}');
+const startDatetime= new Date('2023-04-13T09:32:00');
 function showTime() {
 	var currentDate= new Date();
 	var date3= currentDate - startDatetime;
@@ -13,7 +13,7 @@ function showTime() {
 	    minutes = "0" + minutes;
 	if (seconds < 10)
 	    seconds = "0" + seconds;
-	var currentTimeString = "Dear {{对象}}Seven:<br>"
+	var currentTimeString = "Dear 蜡笔Seven:<br>"
 		+ "I have been in love with you for:<br> "
 		+ "&nbsp&nbsp&nbsp&nbsp&nbsp"
 		+ "<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + days +" </c>day "

@@ -3,7 +3,7 @@ new TypeIt("#tqyxhj", {
         cursorSpeed: 1000,
         speed: 100
     })
-    .type("XX && {{对象}}Seven")
+    .type("XX && 蜡笔Seven")
     .pause(2000)
     .delete(null, {
         delay: 500

@@ -1,4 +1,4 @@
-const startDatetime= new Date('{{时间}}');
+const startDatetime= new Date('2023-04-13T09:32:00');
 function lovetime() {
     window.setTimeout("lovetime()", 1000);
     // var seconds = 1000
